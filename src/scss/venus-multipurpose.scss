@@ -1,0 +1,28 @@
+/**
+ * This file is part of the O2System Venus UI Framework package.
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ *
+ * @author         Steeve Andrian Salim
+ * @copyright      Copyright (c) Steeve Andrian Salim
+ */
+// ------------------------------------------------------------------------
+
+@import "~o2system-venus-ui/src/scss/bootstrap-custom/_functions.scss";
+@import "~o2system-venus-ui/src/scss/bootstrap-custom/_mixins.scss";
+@import "~o2system-venus-ui/src/scss/bootstrap-custom/_variables.scss";
+@import '_components/mixins';
+@import '_components/global';
+@import '_components/header';
+@import '_components/about';
+@import '_components/banner';
+@import '_components/contact';
+@import '_components/cta';
+@import '_components/features';
+@import '_components/footers';
+@import '_components/partner';
+@import '_components/process';
+@import '_components/posts';
+@import '_components/team';
+@import '_components/testimonial';

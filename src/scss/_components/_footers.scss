@@ -1,0 +1,231 @@
+/**
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ *
+ * @author         Alfian Imanuddin
+ * @copyright      Copyright (c) http://alfianimanuddin.com 
+*/
+
+.footer-1{
+    font-size: 14px;
+    background: #fff;
+    .footer-top{
+        border-bottom: 1px dashed rgba(120, 130, 140, 0.13);
+        .navbar{
+            padding: 0px;
+            .navbar-collapse{
+                .navbar-nav{
+                    font-weight: 400;
+                    .nav-item{
+                        &.active{
+                            .nav-link{
+                                color: $primary;
+                            }
+                        }
+                        .nav-link{
+                            color: #8d97ad;
+                            display: block;
+                            padding: 15px 13px;
+                            >.fa-envelope{
+                                font-size: 20px;
+                                margin-right: 10px;
+                                color: $primary;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer-middle{
+        padding: 40px 0;
+        .description{
+            display: -ms-flexbox!important;
+            display: flex!important;
+            margin-bottom: 15px;
+            .icon{
+                margin-right: 20px;
+                font-size: 26px;
+            }
+            .info{
+                >span{
+                    display: block;
+                    font-weight: 500;
+                    margin-top: 5px;
+                }
+            }
+        }
+        .service-title{
+            font-weight: 500;
+            margin-top: 20px;
+            line-height: 20px;
+            font-size: 16px;
+            color: #3e4555;
+        }
+        .service-list{
+            margin-top: 10px;
+            margin: 0px;
+            padding: 0px;
+            >li{
+                width: 49%;
+                display: inline-block;
+                list-style: none;
+                >a{
+                    color: #8d97ad;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    padding: 10px 0;
+                    -webkit-transition: 0.2s ease-in;
+                    -o-transition: 0.2s ease-in;
+                    transition: 0.2s ease-in;
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+                    text-decoration: none;
+                    >i{
+                        margin-right: 7px;
+                        vertical-align: middle;
+                    }
+                    &:hover{
+                        color: $primary;
+                        padding-left: 10px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    .footer-bottom{
+        padding: 20px 0;
+        border-top: 1px solid rgba(120, 130, 140, 0.13);
+        >.container{
+            >.d-flex{
+                >.copyright{
+                    margin-bottom: 10px;
+                    margin-top: 10px;
+                }
+                >.social{
+                    margin-bottom: 10px;
+                    margin-top: 10px;
+                    >a{
+                        padding: 10px;
+                        color: #3e4555;
+                        &:hover{
+                            color: $primary;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer-2{
+    font-size: 14px;
+    padding: 60px 0;
+    background-color: #343a40;
+    .footer-top{
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(120, 130, 140, 0.13);
+    }
+    .footer-middle{
+        padding-top: 40px;
+        .social{
+            margin-bottom: 30px;
+            margin-top: 20px;
+            a{
+                color: #8d97ad;
+                padding: 10px 15px 10px 0;
+                &:hover{
+                    color: $primary;
+                    text-decoration: none;
+                }
+            }
+        }    
+        .service-list{
+            margin-top: 10px;
+            margin: 0px;
+            padding: 0px;
+            >li{
+                list-style: none;
+                >a{
+                    color: #8d97ad;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    padding: 10px 0;
+                    -webkit-transition: 0.2s ease-in;
+                    -o-transition: 0.2s ease-in;
+                    transition: 0.2s ease-in;
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+                    >i{
+                        font-size: 9px;
+                        margin-right: 10px;
+                    }
+                    &:hover{
+                        color: $primary;
+                        padding-left: 10px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .description{
+            display: -ms-flexbox!important;
+            display: flex!important;
+            margin-bottom: 15px;
+            padding: 15px 0;
+            border-bottom: 1px solid rgba(120, 130, 140, 0.13);
+            .icon{
+                margin-right: 20px;
+                font-size: 26px;
+            }
+            .info{
+                >span{
+                    display: block;
+                    font-weight: 500;
+                    margin-top: 5px;
+                }
+            }
+        }
+        .subscribe-box{
+            background: rgba(120, 130, 140, 0.13);
+            padding: 25px;
+            .icon{
+                color: #fff;
+                font-size: 3.5rem;
+                font-weight: 300;
+                line-height: 1.1;
+            }
+            .form-control{
+                background: transparent;
+                padding: 10px 0;
+                border: 0px;
+                border-bottom: 1px solid rgba(120, 130, 140, 0.13);
+                color: #ffffff;
+                border-radius: 0px;
+            }
+        }
+    }
+}
+
+.footer-3{
+    font-size: 14px;
+    padding-top: 50px;
+    background-color: #343a40;
+    .footer-top{
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(120, 130, 140, 0.13);
+    }
+    .footer-middle{
+        padding-top: 40px;
+    }
+    .footer-bottom{
+        background: rgba(0, 0, 0, 0.1);
+        padding: 20px 0;
+    }
+}
