@@ -9,9 +9,9 @@
  */
 // ------------------------------------------------------------------------
 
-@import "~o2system-venus-ui/src/scss/bootstrap-custom/_functions.scss";
-@import "~o2system-venus-ui/src/scss/bootstrap-custom/_mixins.scss";
-@import "~o2system-venus-ui/src/scss/bootstrap-custom/_variables.scss";
+@import "~o2system-venus-ui/src/Bootstrap/Functions.scss";
+@import "~o2system-venus-ui/src/Bootstrap/Mixins.scss";
+@import "~o2system-venus-ui/src/Bootstrap/Variables.scss";
 @import '_components/mixins';
 @import '_components/global';
 @import '_components/header';

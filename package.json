@@ -1,8 +1,8 @@
 {
-  "name": "o2system-venus-admin",
+  "name": "o2system-venus-multipurpose",
   "version": "1.0.0",
-  "description": "O2System Admin Interface Framework",
-  "homepage": "https://venus.o2system.id/admin",
+  "description": "O2System Multipurpose Interface Framework",
+  "homepage": "https://venus.o2system.id/multipurpose",
   "main": "main.js",
   "scripts": {
     "start": "webpack-dev-server --config=config/webpack.dev.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/o2system/venus-admin.git"
+    "url": "git+https://github.com/o2system/venus-multipurpose.git"
   },
   "keywords": [
     "o2system",
@@ -26,7 +26,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/o2system/venus-admin/issues"
+    "url": "https://github.com/o2system/venus-multipurpose/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
