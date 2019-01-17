@@ -9,12 +9,12 @@
  */
 // ------------------------------------------------------------------------
 
-import VenusUi from 'o2system-venus-ui';
+import UserInterface from 'o2system-venus-ui';
 import "./main.scss";
 
-import VenusMultipurpose from './VenusMultipurpose';
+import Multipurpose from './Multipurpose';
 
 /**
  * Venus Object
  */
-module.exports = new VenusMultipurpose();
+export default new Multipurpose();

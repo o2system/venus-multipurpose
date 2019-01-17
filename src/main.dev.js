@@ -13,13 +13,13 @@
 import "@babel/polyfill";
 import "@babel/register";
 import "webpack-hot-middleware/client?reload=true";
-import { VenusUi } from 'o2system-venus-ui';
+import { UserInterface } from 'o2system-venus-ui';
 import "./main.scss";
 import "./index.html";
 
-import VenusMultipurpose from './VenusMultipurpose';
+import Multipurpose from './Multipurpose';
 
 /**
- * VenusMultipurpose Object
+ * Multipurpose Object
  */
-export default new VenusMultipurpose();
+export default new Multipurpose();

@@ -11,12 +11,12 @@
 
 import $ from 'jquery';
 /**
- * Class Venus
+ * Class Multipurpose
  */
-class VenusMultipurpose {
+class Multipurpose {
     constructor() {
         window.$ = window.jQuery = $;
     }
 }
 
-export default VenusMultipurpose;
+export default Multipurpose;
